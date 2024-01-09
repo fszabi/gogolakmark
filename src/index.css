@@ -1,0 +1,81 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    --backgroundColor: #eefdf5;
+    --textColor: #03170d;
+    --primary-400: #2ee491;
+    --secondary-400: #7aa7ee;
+    --accent: #5e60ea;
+  }
+
+  body {
+    @apply bg-backgroundColor text-textColor font-sans text-base;
+  }
+
+  h1,
+  h2 {
+    word-wrap: break-word;
+  }
+
+  @supports (scrollbar-color: var(--secondary-400) var(--backgroundColor)) {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--secondary-400) var(--backgroundColor);
+    }
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    @apply bg-backgroundColor w-2;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply my-2;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-[100vw] bg-secondary-400;
+  }
+
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  picture {
+    @apply block align-middle;
+  }
+
+  picture,
+  svg {
+    @apply max-w-full h-auto;
+  }
+}
+
+@tailwind components;
+
+@layer components {
+  .container {
+    @apply w-[min(100%-3rem,_120rem)] mx-auto;
+  }
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(120deg, var(--primary-400), var(--accent));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bordered-text {
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--textColor);
+    color: transparent;
+  }
+}
