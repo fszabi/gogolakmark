@@ -1,7 +1,7 @@
 export default function Services() {
   return (
-    <section>
-      <div className="container py-10 space-y-16">
+    <section className="py-20">
+      <div className="container space-y-16">
         <h2 className="text-center text-3xl font-semibold">
           Miért engem válassz?
         </h2>
