@@ -29,12 +29,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="grid place-items-center">
-          <picture className="z-50 basis-16 flex-grow-0 flex-shrink-0">
+          <picture>
             <source srcSet="assets/health.jpeg" />
             <img
               className="rounded-xl z-50"
               src="assets/health.jpeg"
-              alt="random img"
+              alt="health"
             />
           </picture>
         </div>

@@ -1,14 +1,14 @@
 export default function Header() {
   return (
-    <header className="bg-backgroundColor py-3 sticky top-0 left-0 right-0 z-50 border-b border-gray-300">
+    <header className="bg-backgroundColor py-3 border-b border-gray-300">
       <div className="container flex flex-wrap gap-x-14 gap-y-7 justify-between items-center">
         <div className="flex gap-5 xl:gap-10 items-center">
-          <picture className="z-50 basis-16 flex-grow-0 flex-shrink-0">
+          <picture>
             <source srcSet="https://picsum.photos/64" />
             <img
-              className="rounded-xl z-50"
+              className="rounded-xl"
               src="https://picsum.photos/64"
-              alt="random img"
+              alt="logo"
             />
           </picture>
           <p className="text-lg font-semibold">Gogolák Márk</p>
