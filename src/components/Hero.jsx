@@ -21,6 +21,7 @@ export default function Hero() {
             </a>
             <a
               href="https://www.salonic.hu/"
+              target="_blank"
               className="bg-primary-400 py-3 px-8 rounded-lg hover:-translate-y-1
               hover:shadow-[0_20px_80px_-10px_rgba(46,228,145,1)] transition-[box-shadow, transform] duration-300"
             >
