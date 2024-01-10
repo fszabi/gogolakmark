@@ -35,7 +35,12 @@ export default function Footer() {
                   d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                 />
               </svg>
-              <p>+36 30 402 9926</p>
+              <a
+                href="tel:+36304029926"
+                className="hover:opacity-60 transition-opacity duration-300"
+              >
+                +36 30 402 9926
+              </a>
             </li>
             <li className="flex gap-3 items-center max-xs:flex-col max-xs:items-start">
               <svg
@@ -52,7 +57,12 @@ export default function Footer() {
                   d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                 />
               </svg>
-              <p>gogolakmark@gmail.com</p>
+              <a
+                href="mailto:gogolakmark@gmail.com"
+                className="hover:opacity-60 transition-opacity duration-300"
+              >
+                gogolakmark@gmail.com
+              </a>
             </li>
           </ul>
         </div>
@@ -65,7 +75,13 @@ export default function Footer() {
                 src="assets/icons/facebook.svg"
                 alt="facebook icon"
               />
-              <p>Facebook</p>
+              <a
+                href="https://www.facebook.com/mark.gogolak"
+                target="_blank"
+                className="hover:opacity-60 transition-opacity duration-300"
+              >
+                Facebook
+              </a>
             </li>
             <li className="flex flex-wrap gap-3 items-center">
               <img
@@ -73,7 +89,13 @@ export default function Footer() {
                 src="assets/icons/instagram.svg"
                 alt="instagram icon"
               />
-              <p>Instagram</p>
+              <a
+                href="https://www.instagram.com/gogolakm/"
+                target="_blank"
+                className="hover:opacity-60 transition-opacity duration-300"
+              >
+                Instagram
+              </a>
             </li>
           </ul>
         </div>
