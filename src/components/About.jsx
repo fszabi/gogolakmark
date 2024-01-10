@@ -14,30 +14,29 @@ export default function About() {
           <h2 className="text-2xl font-semibold">A hivatásom</h2>
           <p>
             A civilizált társadalmakban legnagyobb mértékben előforduló{" "}
-            <span className="text-accent">krónikus betegségek</span> szinte
+            <span className="text-lg">krónikus betegségek</span> szinte
             mindegyike visszavezethető valamilyen mértékű{" "}
-            <span className="text-accent ">táplálkozásbeli/életmódbeli</span>{" "}
+            <span className="text-lg">táplálkozásbeli/életmódbeli</span>{" "}
             ártalomra.
           </p>
           <p>
             Első lépésben szükséges felmérni ezen ártalmak mértékét egyénenként
             az életmódbeli{" "}
-            <span className="text-accent">szokások feltérképezése</span>{" "}
+            <span className="text-lg">szokások feltérképezése</span>{" "}
             (konzultáció) során, és lehetőség szerint objektív analitikai
             eszközökkel is. Majd ennek megfelelően{" "}
-            <span className="text-accent">személyre szabott</span>, terápiás
-            hatású, egészséges, fenntartható, kiegyensúlyozott
-            étrendi-életmódbeli ismeretekkel és eszközökkel segítem a hozzám
-            fordulók életében vissza állítani az{" "}
-            <span className="text-accent">egyensúlyt</span>.
+            <span className="text-lg">személyre szabott</span>, terápiás hatású,
+            egészséges, fenntartható, kiegyensúlyozott étrendi-életmódbeli
+            ismeretekkel és eszközökkel segítem a hozzám fordulók életében
+            vissza állítani az <span className="text-lg">egyensúlyt</span>.
           </p>
           <p>
             Ez az egyensúlyi állapot sajnos már nem jár alanyi jogon a
             megváltozott étkezési szokások és mezőgazdasági eljárások, illetve
             egyéb civilizációs körülmények végett. Így nekünk kell kezünkbe
-            venni az <span className="text-accent">irányítást</span>, és
+            venni az <span className="text-lg">irányítást</span>, és
             kialakítanunk egy preventív étkezési stratégiát, mellyel{" "}
-            <span className="text-accent">minimalizálhatjuk</span> az életünkben
+            <span className="text-lg">minimalizálhatjuk</span> az életünkben
             megjelenő legtöbb krónikus betegség előfordulásának esélyét!
           </p>
           <p>
