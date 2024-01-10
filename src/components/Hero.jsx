@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="py-20">
-      <div className="container xl:grid max-xl:space-y-14 max-xl:text-center xl:grid-cols-2 gap-14">
+      <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger xl:grid max-xl:space-y-14 max-xl:text-center xl:grid-cols-2 gap-14">
         <div className="space-y-20 max-xl:space-y-10 max-w-3xl xl:max-w-xl max-xl:mx-auto">
           <h1 className="text-4xl font-semibold leading-tight">
             Mondj <span className="gradient-text">nemet</span> a{" "}
@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-5 max-xl:justify-center">
             <a
               href="#how"
-              className="bg-secondary-300 py-3 px-8 rounded-xl hover:-translate-y-1 transition-transform"
+              className="bg-secondary-200 py-3 px-8 rounded-lg hover:-translate-y-1 transition-transform"
             >
               Hogyan működik?
             </a>
@@ -31,11 +31,7 @@ export default function Hero() {
         <div className="grid place-items-center">
           <picture>
             <source srcSet="assets/health.jpeg" />
-            <img
-              className="rounded-xl z-50"
-              src="assets/health.jpeg"
-              alt="health"
-            />
+            <img className="rounded-xl" src="assets/health.jpeg" alt="health" />
           </picture>
         </div>
       </div>

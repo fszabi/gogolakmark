@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-backgroundColor text-textColor font-sans text-base;
+    @apply bg-backgroundColor text-textColor-400 font-sans text-base;
   }
 
   h1,
@@ -57,8 +57,16 @@
 @tailwind components;
 
 @layer components {
-  .container {
+  .wrapper {
+    @apply w-[min(100%-3rem,_80rem)] mx-auto;
+  }
+
+  .wrapper-big {
     @apply w-[min(100%-3rem,_120rem)] mx-auto;
+  }
+
+  .wrapper-bigger {
+    @apply w-[min(100%-3rem,_200rem)] mx-auto;
   }
 }
 

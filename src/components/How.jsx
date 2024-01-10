@@ -1,13 +1,13 @@
 export default function How() {
   return (
     <section id="how" className="py-20">
-      <div className="container p-10 xl:p-20 rounded-2xl bg-secondary-300 flex max-xl:flex-col max-xl:space-y-5 gap-5 justify-between">
+      <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger p-10 xl:p-20 rounded-2xl bg-secondary-200 flex max-xl:flex-col max-xl:space-y-5 gap-5 justify-between">
         <div className="space-y-10 xl:w-3/6">
           <h2 className="text-2xl font-semibold">Hogyan működik?</h2>
           <div className="flex flex-wrap gap-5 xl:max-w-xl">
             <a
               href="#"
-              className="bg-secondary-300 py-3 px-8 rounded-xl hover:-translate-y-1 transition-transform"
+              className="bg-secondary-200 py-3 px-8 rounded-lg hover:-translate-y-1 transition-transform"
             >
               Időpont foglalás
             </a>

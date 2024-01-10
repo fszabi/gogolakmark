@@ -3,11 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      sm: "35em",
-      md: "50em",
-      lg: "65em",
-      xl: "80em",
-      "2xl": "130em",
+      xs: "23.375rem",
+      sm: "35rem",
+      md: "50rem",
+      lg: "65rem",
+      xl: "80rem",
+      "2xl": "140rem",
+      "3xl": "180rem",
     },
     fontSize: {
       sm: ["1rem", "1.5"],
@@ -25,12 +27,12 @@ export default {
           400: "#2ee491",
         },
         secondary: {
-          300: "#7ca8ee4c",
+          200: "#7ca8ee4c",
           400: "#7aa7ee",
         },
         accent: "#5e60ea",
         backgroundColor: "#eefdf5",
-        textColor: "#03170d",
+        textColor: { 100: "#03170d0d", 400: "#03170d" },
       },
       fontFamily: {
         sans: [

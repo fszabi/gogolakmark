@@ -1,15 +1,15 @@
 export default function Services() {
   return (
     <section className="py-20">
-      <div className="container space-y-16">
+      <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger space-y-16">
         <h2 className="text-center text-3xl font-semibold">
           Miért engem válassz?
         </h2>
         <ul className="grid lg:grid-cols-3 gap-5">
-          <li className="bg-primary-300 p-10 rounded-md space-y-5">
+          <li className="bg-textColor-100 p-10 rounded-md space-y-5">
             <h3
               className="w-fit mx-auto relative flex flex-col justify-end font-medium text-center text-xl hover:before:h-full before:content-[''] before:h-1/2 
-              before:block before:absolute before:-z-10 before:opacity-30 before:w-full
+              before:absolute before:-z-10 before:opacity-30 before:w-full
               before:bg-[linear-gradient(180deg,_transparent_50%,_#5e60ea_50%)] before:transition-[height] before:duration-300"
             >
               Személyedzés
@@ -20,10 +20,10 @@ export default function Services() {
               fejlődésed.
             </p>
           </li>
-          <li className="bg-primary-300 p-10 rounded-md space-y-5">
+          <li className="bg-textColor-100 p-10 rounded-md space-y-5">
             <h3
               className="w-fit mx-auto relative flex flex-col justify-end font-medium text-center text-xl hover:before:h-full before:content-[''] before:h-1/2 
-              before:block before:absolute before:-z-10 before:opacity-30 before:w-full
+              before:absolute before:-z-10 before:opacity-30 before:w-full
               before:bg-[linear-gradient(180deg,_transparent_50%,_#5e60ea_50%)] before:transition-[height] before:duration-300"
             >
               Táplálkozás tanácsadás
@@ -35,10 +35,10 @@ export default function Services() {
               amely megváltoztatja az életedet.
             </p>
           </li>
-          <li className="bg-primary-300 p-10 rounded-md space-y-5">
+          <li className="bg-textColor-100 p-10 rounded-md space-y-5">
             <h3
               className="w-fit mx-auto relative flex flex-col justify-end font-medium text-center text-xl hover:before:h-full before:content-[''] before:h-1/2 
-              before:block before:absolute before:-z-10 before:opacity-30 before:w-full
+              before:absolute before:-z-10 before:opacity-30 before:w-full
               before:bg-[linear-gradient(180deg,_transparent_50%,_#5e60ea_50%)] before:transition-[height] before:duration-300"
             >
               Táplálkozás tanácsadás
