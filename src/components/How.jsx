@@ -6,7 +6,7 @@ export default function How() {
           <h2 className="text-2xl font-semibold">Hogyan működik?</h2>
           <div className="flex flex-wrap gap-5 xl:max-w-xl">
             <a
-              href="#"
+              href="https://www.salonic.hu/"
               className="bg-secondary-200 py-3 px-8 rounded-lg hover:-translate-y-1 transition-transform"
             >
               Időpont foglalás
