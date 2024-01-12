@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="py-20">
-      <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger xl:grid max-xl:space-y-14 max-xl:text-center xl:grid-cols-2 gap-14">
+      <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger xl:grid max-xl:space-y-14 max-xl:text-center xl:grid-cols-2 gap-20">
         <div className="space-y-20 max-xl:space-y-10 max-w-3xl xl:max-w-xl max-xl:mx-auto">
           <h1 className="text-4xl font-semibold leading-tight">
             Mondj <span className="gradient-text">nemet</span> a{" "}
