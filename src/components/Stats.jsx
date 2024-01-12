@@ -4,7 +4,7 @@ export default function Stats() {
       <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger grid lg:grid-cols-4 lg:grid-rows-[20rem,_15rem] gap-5">
         <div className="lg:col-span-3 bg-primary-400 rounded-2xl p-10 text-center flex justify-center items-center">
           <h3 className="text-lg lg:text-xl xl:text-xl 2xl:text-2xl font-semibold">
-            Több mint 1000 boldog ügyfél
+            Több mint 1000 elégedett ügyfél
           </h3>
         </div>
         <div className="lg:col-span-1 bg-secondary-400 rounded-2xl p-10 text-center flex justify-center items-center">
