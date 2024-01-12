@@ -40,9 +40,10 @@ export default function About() {
             megjelenő legtöbb krónikus betegség előfordulásának esélyét!
           </p>
           <p>
-            Gogolák Márknak hívnak, ebben igyekszem naprakész maradni és a
-            tudomány jelenlegi állásának megfelelő táplálkozási ismeretekkel
-            segíteni a hozzám fordulóknak.
+            Gogolák Márknak hívnak, ebben igyekszem naprakész maradni és a{" "}
+            <span className="text-lg">tudomány</span> jelenlegi állásának
+            megfelelő táplálkozási ismeretekkel{" "}
+            <span className="text-lg">segíteni</span> a hozzám fordulóknak.
           </p>
         </div>
       </div>

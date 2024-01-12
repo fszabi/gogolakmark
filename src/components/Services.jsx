@@ -41,13 +41,14 @@ export default function Services() {
               before:absolute before:-z-10 before:opacity-30 before:w-full
               before:bg-[linear-gradient(180deg,_transparent_50%,_#5e60ea_50%)] before:transition-[height] before:duration-300"
             >
-              Táplálkozás tanácsadás
+              Vérzsír analízis
             </h3>
             <p>
-              Nagyon fontos, hogy mit viszünk be a szervezetünkbe. Az egészséges
-              élethez nem elég az edzés, figyelnünk kell a bevitt táplálék
-              minőségére is. Összeállítok neked egy személyreszabott étrendet,
-              amely megváltoztatja az életedet.
+              A DBS teszt egy egyszerűen elvégezhető teszt a vérben található
+              zsírsavak elemzéséhez, amelyek azt tükrözik, hogy milyen fajta
+              zsírokat fogyasztunk. Ez a teszt a megszáradt vércseppek
+              vizsgálata, ami tudományosan bizonyítottan épp olyan pontos, mint
+              a vénából vett vérminta elemzése, ha a zsírsavakról van szó.
             </p>
           </li>
         </ul>

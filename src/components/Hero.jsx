@@ -31,8 +31,8 @@ export default function Hero() {
         </div>
         <div className="grid place-items-center">
           <picture>
-            <source srcSet="assets/health.jpeg" />
-            <img className="rounded-xl" src="assets/health.jpeg" alt="health" />
+            <source srcSet="assets/health.webp" />
+            <img className="rounded-xl" src="assets/health.webp" alt="health" />
           </picture>
         </div>
       </div>

@@ -7,10 +7,10 @@ export default function Footer() {
         <div>
           <div className="flex gap-10 items-center">
             <picture>
-              <source srcSet="https://picsum.photos/64" />
+              <source srcSet="assets/logo.png" />
               <img
-                className="rounded-xl"
-                src="https://picsum.photos/64"
+                className="rounded-xl w-20 h-20"
+                src="assets/logo.png"
                 alt="logo"
               />
             </picture>
@@ -95,6 +95,19 @@ export default function Footer() {
                 className="hover:opacity-60 transition-opacity duration-300"
               >
                 Instagram
+              </a>
+            </li>
+            <li className="flex flex-wrap gap-3 items-center">
+              <a
+                href="https://www.zinzino.com/2015023479"
+                target="_blank"
+                className="hover:opacity-60 transition-opacity duration-300"
+              >
+                <img
+                  className="min-w-10 h-10"
+                  src="assets/zinzino.png"
+                  alt="assets/zinzino.png"
+                />
               </a>
             </li>
           </ul>
