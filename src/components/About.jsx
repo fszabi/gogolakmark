@@ -3,11 +3,11 @@ export default function About() {
     <section className="py-20">
       <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger grid xl:grid-cols-2 gap-20 mx-auto">
         <picture>
-          <source srcSet="assets/gym.webp" />
+          <source srcSet="assets/mark.jpg" />
           <img
-            className="rounded-xl w-full max-h-[40rem] object-cover"
-            src="assets/gym.webp"
-            alt="gym"
+            className="rounded-xl w-full max-h-[45rem] object-cover object-middle"
+            src="assets/mark.jpg"
+            alt="mark"
           />
         </picture>
         <div className="space-y-8">
