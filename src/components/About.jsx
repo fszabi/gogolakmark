@@ -3,7 +3,8 @@ export default function About() {
     <section className="py-20">
       <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger grid xl:grid-cols-2 gap-20 mx-auto">
         <picture>
-          <source srcSet="assets/mark.jpg" />
+          <source media="(min-width: 500px)" srcSet="assets/mark.webp" />
+          <source srcSet="assets/mark_phone.webp" />
           <img
             className="rounded-xl w-full max-h-[45rem] object-cover object-middle"
             src="assets/mark.jpg"

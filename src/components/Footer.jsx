@@ -7,11 +7,11 @@ export default function Footer() {
         <div>
           <div className="flex gap-10 items-center">
             <picture>
-              <source srcSet="assets/logo.png" />
+              <source srcSet="assets/logo.webp" />
               <img
                 className="rounded-xl w-20 h-20"
                 src="assets/logo.png"
-                alt="logo"
+                alt="egeszsegkultura logo"
               />
             </picture>
             <p className="text-lg font-semibold">Gogolák Márk</p>
@@ -103,11 +103,14 @@ export default function Footer() {
                 target="_blank"
                 className="hover:opacity-60 transition-opacity duration-300"
               >
-                <img
-                  className="min-w-10 h-10"
-                  src="assets/zinzino.png"
-                  alt="assets/zinzino.png"
-                />
+                <picture>
+                  <source srcSet="assets/zinzino.webp" />
+                  <img
+                    className="min-w-10 h-10"
+                    src="assets/zinzino.png"
+                    alt="zinzino logo"
+                  />
+                </picture>
               </a>
             </li>
           </ul>
