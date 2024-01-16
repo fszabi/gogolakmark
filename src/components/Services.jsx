@@ -41,7 +41,7 @@ export default function Services() {
               before:absolute before:-z-10 before:opacity-30 before:w-full
               before:bg-[linear-gradient(180deg,_transparent_50%,_#5e60ea_50%)] before:transition-[height] before:duration-300"
             >
-              Vérzsír analízis
+              Vérzsír analizálás
             </h3>
             <p>
               A DBS teszt egy egyszerűen elvégezhető teszt a vérben található

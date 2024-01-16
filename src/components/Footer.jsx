@@ -3,18 +3,21 @@ import ScrollArrow from "./ScrollArrow";
 export default function Footer() {
   return (
     <footer id="contact" className="py-20">
-      <div className="bg-textColor-100 wrapper 2xl:wrapper-big 3xl:wrapper-bigger p-5 xl:p-32 rounded-2xl grid grid-cols-[repeat(auto-fit,_minmax(15rem,_1fr))] gap-14">
+      <div className="bg-textColor-100 wrapper 2xl:wrapper-big 3xl:wrapper-bigger p-5 xl:p-20 rounded-2xl grid grid-cols-[repeat(auto-fit,_minmax(15rem,_1fr))] gap-14">
         <div>
-          <div className="flex gap-10 items-center">
+          <div className="flex gap-10">
             <picture>
               <source srcSet="assets/logo.webp" />
               <img
-                className="rounded-xl w-20 h-20"
+                className="rounded-xl max-w-20"
                 src="assets/logo.png"
                 alt="egeszsegkultura logo"
               />
             </picture>
-            <p className="text-lg font-semibold">Gogolák Márk</p>
+            <div className="space-y-3">
+              <p className="text-lg font-semibold">Gogolák Márk</p>
+              <p>Táplálkozási tanácsadó, sport és fitnesz oktató</p>
+            </div>
           </div>
         </div>
         <div className="space-y-10">

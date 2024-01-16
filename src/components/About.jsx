@@ -46,6 +46,9 @@ export default function About() {
             megfelelő táplálkozási ismeretekkel{" "}
             <span className="text-lg">segíteni</span> a hozzám fordulóknak.
           </p>
+          <p className="italic">
+            „Nem azért élünk, hogy együnk, hanem azért eszünk, hogy élhessünk”
+          </p>
         </div>
       </div>
     </section>
