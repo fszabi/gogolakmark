@@ -6,7 +6,7 @@ export default function About() {
           <source media="(min-width: 500px)" srcSet="assets/mark.webp" />
           <source srcSet="assets/mark_phone.webp" />
           <img
-            className="rounded-xl w-full max-h-[45rem] object-cover object-middle"
+            className="rounded-xl w-full max-h-[45rem] object-cover"
             src="assets/mark.jpg"
             alt="mark"
           />
