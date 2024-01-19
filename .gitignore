@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-robots.txt
-sitemap.xml
-netlify.toml
