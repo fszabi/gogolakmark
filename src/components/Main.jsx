@@ -3,6 +3,7 @@ import About from "./About";
 import Services from "./Services";
 import Stats from "./Stats";
 import How from "./How";
+import Testimonials from "./Testimonials";
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       <Services />
       <Stats />
       <How />
+      <Testimonials />
     </main>
   );
 }

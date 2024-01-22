@@ -5,6 +5,7 @@ export default {
     screens: {
       xs: "23.375rem",
       sm: "35rem",
+      normal: "40rem",
       md: "50rem",
       lg: "65rem",
       xl: "80rem",
@@ -12,6 +13,7 @@ export default {
       "3xl": "180rem",
     },
     fontSize: {
+      xs: ["0.9rem", "1.5"],
       sm: ["1rem", "1.5"],
       base: ["1.125rem", "1.5"],
       lg: ["1.375rem", "1.4"],
