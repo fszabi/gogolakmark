@@ -52,7 +52,7 @@ export default function About() {
             </div>
             <h2 class="name">Tamás</h2>
           </div>
-          <p className="text-lg">Nagyon meg vagyok elégedve a munkájával!</p>
+          <p className="text-lg">Teljesen meg vagyok elégedve a munkájával!</p>
           <p className="text-xs italic">
             „Márk kiváló szakember mind a személyi edzés és a
             táplálkozástudomány területén. Ez számára nem munka hanem hivatás,
@@ -72,7 +72,7 @@ export default function About() {
             </div>
             <h2 class="name">Balázs</h2>
           </div>
-          <p className="text-lg">Nagyon meg vagyok elégedve a munkájával!</p>
+          <p className="text-lg">Nagyban hozzájárult a fejlődésemhez!</p>
           <p className="text-xs italic">
             „Rengeteg magabiztosságot az edzéshez, nagyon nagy kitartást,
             biztató szavakat kaptam tőled nem számított mennyi ment! Ajánlom
@@ -92,23 +92,24 @@ export default function About() {
             </div>
             <h2 class="name">Amanda</h2>
           </div>
-          <p className="text-lg">Nagyon meg vagyok elégedve a munkájával!</p>
+          <p className="text-lg">
+            Míg a Márkkal jártam edzeni, bár babaléptekkel haladtam, a
+            hétköznapi életem teljesen megváltozott.
+          </p>
           <p className="text-xs italic">
-            „Míg a Márkkal jártam edzeni, bár babaléptekkel haladtam, a
-            hétköznapi életem teljesen megváltozott. Az edzés már nem csak a
-            célom eléréséről szólt, hanem az oda vezető út élvezetéről is. Egy
-            olyan kellemes, otthonias környezetben edzhettem, ahol egy pár
-            perces nevetés sosem volt tiltott és örömmel töltött el az edzés. A
-            Márk sokat segített a működésem megértésében, a betegségek
-            elkerülésében és gyors gyógyulásban is. Nem beszélve arról, hogy a
-            testi egészségem mellett a mentális egészségemre is odafigyelt.
-            Pontos edzéstervekkel, a fejlődésem folyamatos megfigyelésével, a
-            sok beszélgetéssel mindig aktívan részt vett az edzéseimen és ott
-            volt, ha szükség volt rá. A pozitivitása rendkívül jó hatással volt
-            rám, hiszen sosem hagyta, hogy úgy érezzem nem értem el semmit. Sok
-            biztatás, jókedv és nulla előítélettel vitte végig az edzéseket a
-            legelső alkalomtól kezdve. Tiszta szívvel tudom ajánlani
-            mindenkinek!””
+            „Az edzés már nem csak a célom eléréséről szólt, hanem az oda vezető
+            út élvezetéről is. Egy olyan kellemes, otthonias környezetben
+            edzhettem, ahol egy pár perces nevetés sosem volt tiltott és örömmel
+            töltött el az edzés. A Márk sokat segített a működésem megértésében,
+            a betegségek elkerülésében és gyors gyógyulásban is. Nem beszélve
+            arról, hogy a testi egészségem mellett a mentális egészségemre is
+            odafigyelt. Pontos edzéstervekkel, a fejlődésem folyamatos
+            megfigyelésével, a sok beszélgetéssel mindig aktívan részt vett az
+            edzéseimen és ott volt, ha szükség volt rá. A pozitivitása rendkívül
+            jó hatással volt rám, hiszen sosem hagyta, hogy úgy érezzem nem
+            értem el semmit. Sok biztatás, jókedv és nulla előítélettel vitte
+            végig az edzéseket a legelső alkalomtól kezdve. Tiszta szívvel tudom
+            ajánlani mindenkinek!””
           </p>
         </div>
         <div className="bg-textColor-100 p-8 space-y-7 rounded-lg [grid-area:five]">
@@ -122,14 +123,14 @@ export default function About() {
             </div>
             <h2 class="name">Emese</h2>
           </div>
-          <p className="text-lg">Nagyon meg vagyok elégedve a munkájával!</p>
+          <p className="text-lg">Miért a Márk az edzőm?</p>
           <p className="text-xs italic">
-            „Miért a Márk az edzőm? Sohasem gondoltam volna, hogy nekem személyi
-            edzőm lesz. 2023. januárban kezdtem el újra járni az ABcenterbe,
-            három hónap elteltével nem éreztem a fejlődést, közben láttam, hogy
-            edzi a vendégeit és áprilisban megkértem segítsen az edzésekben. Az
-            első pár együtt edzés után úgy gondoltam ez túl sok nekem „öreg
-            vagyok” ehhez. De Márk nem hagyott, folyamatosan bíztatott, pozitív
+            „Sohasem gondoltam volna, hogy nekem személyi edzőm lesz. 2023.
+            januárban kezdtem el újra járni az ABcenterbe, három hónap
+            elteltével nem éreztem a fejlődést, közben láttam, hogy edzi a
+            vendégeit és áprilisban megkértem segítsen az edzésekben. Az első
+            pár együtt edzés után úgy gondoltam ez túl sok nekem „öreg vagyok”
+            ehhez. De Márk nem hagyott, folyamatosan bíztatott, pozitív
             visszajelzéseket adott így növelte az önbizalmam. Heti háromszor
             edzünk ami változatos és folyamatos megpróbáltatást jelent. Mindig
             annyi plusz van a gyakorlatokba, hogy újabb kihívások elé tud
