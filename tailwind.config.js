@@ -10,7 +10,7 @@ export default {
       lg: "65rem",
       xl: "80rem",
       "2xl": "140rem",
-      "3xl": "180rem",
+      "3xl": "200rem",
     },
     fontSize: {
       xs: ["0.9rem", "1.5"],
