@@ -2,15 +2,71 @@ export default function About() {
   return (
     <section className="py-20">
       <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger grid xl:grid-cols-2 gap-20 mx-auto">
-        <picture>
-          <source media="(min-width: 500px)" srcSet="assets/mark.webp" />
-          <source srcSet="assets/mark_phone.webp" />
-          <img
-            className="rounded-xl w-full max-h-[45rem] object-cover"
-            src="assets/mark.jpg"
-            alt="mark"
-          />
-        </picture>
+        <div className="overflow-hidden rounded-xl">
+          <div className="flex animate-slide">
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_1.jpg" />
+              <source srcSet="assets/mark_1.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-1"
+                src="assets/mark_1.jpg"
+                alt="mark 1"
+              />
+            </picture>
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_2.jpg" />
+              <source srcSet="assets/mark_2.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-2"
+                src="assets/mark_2.jpg"
+                alt="mark 2"
+              />
+            </picture>
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_3.jpg" />
+              <source srcSet="assets/mark_3.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-3"
+                src="assets/mark_4.jpg"
+                alt="mark 3"
+              />
+            </picture>
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_4.jpg" />
+              <source srcSet="assets/mark_4.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-4"
+                src="assets/mark_4.jpg"
+                alt="mark 4"
+              />
+            </picture>
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_5.jpg" />
+              <source srcSet="assets/mark_5.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-5"
+                src="assets/mark_5.jpg"
+                alt="mark 5"
+              />
+            </picture>
+            <picture className="flex-grow flex-shrink-0 basis-full snap-start">
+              <source media="(min-width: 500px)" srcSet="assets/mark_1.jpg" />
+              <source srcSet="assets/mark_1.jpg" />
+              <img
+                className="w-full max-h-[60rem] object-cover"
+                id="img-1"
+                src="assets/mark_1.jpg"
+                alt="mark 1"
+              />
+            </picture>
+          </div>
+        </div>
+
         <div className="space-y-8">
           <h2 className="text-2xl font-semibold">A hivatásom</h2>
           <p>

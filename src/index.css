@@ -62,11 +62,11 @@
   }
 
   .wrapper-big {
-    @apply w-[min(100%-3rem,_120rem)] mx-auto;
+    @apply w-[min(100%-3rem,_100rem)] mx-auto;
   }
 
   .wrapper-bigger {
-    @apply w-[min(100%-3rem,_180rem)] mx-auto;
+    @apply w-[min(100%-3rem,_160rem)] mx-auto;
   }
 }
 

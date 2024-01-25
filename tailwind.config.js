@@ -23,6 +23,19 @@ export default {
       "4xl": ["clamp(2.6rem, 2.8vw + 2rem, 4.73rem)", "1.2"],
     },
     extend: {
+      keyframes: {
+        slide: {
+          "0%, 10%": { transform: "translateX(0)" },
+          "15%, 30%": { transform: "translateX(-100%)" },
+          "35%, 50%": { transform: "translateX(-200%)" },
+          "55%, 70%": { transform: "translateX(-300%)" },
+          "75%, 90%": { transform: "translateX(-400%)" },
+          "95%, 100%": { transform: "translateX(-500%)" },
+        },
+      },
+      animation: {
+        slide: "slide 30s infinite",
+      },
       colors: {
         primary: {
           300: "#2fe4931d",
