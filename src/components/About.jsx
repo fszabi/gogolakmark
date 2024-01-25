@@ -3,12 +3,12 @@ export default function About() {
     <section className="py-20">
       <div className="wrapper 2xl:wrapper-big 3xl:wrapper-bigger grid xl:grid-cols-2 gap-20 mx-auto">
         <div className="overflow-hidden rounded-xl">
-          <div className="flex animate-slide">
+          <div className="flex animate-slide max-h-[60rem]">
             <picture className="flex-grow flex-shrink-0 basis-full snap-start">
               <source media="(min-width: 500px)" srcSet="assets/mark_1.jpg" />
               <source srcSet="assets/mark_1.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-1"
                 src="assets/mark_1.jpg"
                 alt="mark 1"
@@ -18,7 +18,7 @@ export default function About() {
               <source media="(min-width: 500px)" srcSet="assets/mark_2.jpg" />
               <source srcSet="assets/mark_2.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-2"
                 src="assets/mark_2.jpg"
                 alt="mark 2"
@@ -28,7 +28,7 @@ export default function About() {
               <source media="(min-width: 500px)" srcSet="assets/mark_3.jpg" />
               <source srcSet="assets/mark_3.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-3"
                 src="assets/mark_4.jpg"
                 alt="mark 3"
@@ -38,7 +38,7 @@ export default function About() {
               <source media="(min-width: 500px)" srcSet="assets/mark_4.jpg" />
               <source srcSet="assets/mark_4.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-4"
                 src="assets/mark_4.jpg"
                 alt="mark 4"
@@ -48,7 +48,7 @@ export default function About() {
               <source media="(min-width: 500px)" srcSet="assets/mark_5.jpg" />
               <source srcSet="assets/mark_5.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-5"
                 src="assets/mark_5.jpg"
                 alt="mark 5"
@@ -58,7 +58,7 @@ export default function About() {
               <source media="(min-width: 500px)" srcSet="assets/mark_1.jpg" />
               <source srcSet="assets/mark_1.jpg" />
               <img
-                className="w-full max-h-[60rem] object-cover"
+                className="w-full h-full object-cover"
                 id="img-1"
                 src="assets/mark_1.jpg"
                 alt="mark 1"
